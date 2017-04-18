@@ -12,6 +12,6 @@ namespace AquariumPartTwo.Models
         public string Name { get; set; }
         public string City { get; set; }
 
-        public virtual ICollection<AquaticLife> AquaticLifes { get; set; }
+        //public virtual ICollection<AquaticLife> AquaticLifes { get; set; }
     }
 }

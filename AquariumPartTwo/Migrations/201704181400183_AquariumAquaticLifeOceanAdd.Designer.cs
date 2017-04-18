@@ -7,13 +7,13 @@ namespace AquariumPartTwo.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AquariumAquaticLifeManyToMany : IMigrationMetadata
+    public sealed partial class AquariumAquaticLifeOceanAdd : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AquariumAquaticLifeManyToMany));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AquariumAquaticLifeOceanAdd));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704180235259_AquariumAquaticLifeManyToMany"; }
+            get { return "201704181400183_AquariumAquaticLifeOceanAdd"; }
         }
         
         string IMigrationMetadata.Source

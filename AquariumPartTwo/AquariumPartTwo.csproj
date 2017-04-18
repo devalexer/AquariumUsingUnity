@@ -62,12 +62,13 @@
     <Compile Include="Migrations\201704180143156_OceanAdded.Designer.cs">
       <DependentUpon>201704180143156_OceanAdded.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201704180235259_AquariumAquaticLifeManyToMany.cs" />
-    <Compile Include="Migrations\201704180235259_AquariumAquaticLifeManyToMany.Designer.cs">
-      <DependentUpon>201704180235259_AquariumAquaticLifeManyToMany.cs</DependentUpon>
+    <Compile Include="Migrations\201704181400183_AquariumAquaticLifeOceanAdd.cs" />
+    <Compile Include="Migrations\201704181400183_AquariumAquaticLifeOceanAdd.Designer.cs">
+      <DependentUpon>201704181400183_AquariumAquaticLifeOceanAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aquarium.cs" />
+    <Compile Include="Models\AquariumAquaticLifeOcean.cs" />
     <Compile Include="Models\AquaticLife.cs" />
     <Compile Include="Models\Ocean.cs" />
     <Compile Include="Program.cs" />
@@ -87,8 +88,8 @@
     <EmbeddedResource Include="Migrations\201704180143156_OceanAdded.resx">
       <DependentUpon>201704180143156_OceanAdded.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704180235259_AquariumAquaticLifeManyToMany.resx">
-      <DependentUpon>201704180235259_AquariumAquaticLifeManyToMany.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201704181400183_AquariumAquaticLifeOceanAdd.resx">
+      <DependentUpon>201704181400183_AquariumAquaticLifeOceanAdd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -59,7 +59,7 @@ namespace AquariumPartTwo
 
             //A SQL Query that Returns Only the Distinct(new topic) Cities that have aquariums
 
-            var citiesWithAquariums = db.Aquariums.Distinct().Where(Aquarium.City);
+           // var citiesWithAquariums = db.Aquariums.Distinct().Where(Aquarium.City);
 
             //A SQL Query that Gives the Count(new topic) of How many species of AquaticLife live in each Ocean
 

@@ -16,10 +16,9 @@ namespace AquariumPartTwo.DataContext
         }
 
         public DbSet<Aquarium> Aquariums { get; set; }
-
         public DbSet<AquaticLife> AquaticLifes { get; set; }
-
         public DbSet<Ocean> Oceans { get; set; }
+        public DbSet<AquariumAquaticLifeOcean> AquariumAquaticLIfeOcean { get; set; }
 
     }
 

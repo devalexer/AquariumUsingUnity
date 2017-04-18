@@ -11,5 +11,7 @@ namespace AquariumPartTwo.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public double? AverageTemperature { get; set; }
+
+       // public virtual ICollection<AquaticLife> AquaticLifes { get; set; }
     }
 }

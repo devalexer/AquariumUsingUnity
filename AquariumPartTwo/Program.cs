@@ -51,15 +51,22 @@ namespace AquariumPartTwo
 
             //A SQL Query that given an Aquarium Name, What AquaticLife is there
 
-            var aquariumNameAquaticLife = db.Aquariums;
+            var database = new AquariumContext();
+            var query1 = database.AquariumAquaticLifeOcean
+                .Include(i => i.Aquarium) //joins
+                .Where(w => w.Aquarium.Name == "Fish Tank");
 
+            foreach (var item in query1)
+            {
+                Console.WriteLine(item.AquaticLife.Name);
+            }
 
             //A SQL Query that, given an Ocean, What Aquariums have fish from that ocean
 
 
             //A SQL Query that Returns Only the Distinct(new topic) Cities that have aquariums
 
-           // var citiesWithAquariums = db.Aquariums.Distinct().Where(Aquarium.City);
+         // var citiesWithAquariums = db.Aquariums.Distinct().Where(Aquarium.City);
 
             //A SQL Query that Gives the Count(new topic) of How many species of AquaticLife live in each Ocean
 
